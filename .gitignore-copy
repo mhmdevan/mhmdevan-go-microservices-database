@@ -1,0 +1,70 @@
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Binaries
+main
+*.out
+
+# Build directory
+/build
+
+# Dependency directories (vendor/)
+vendor/
+
+# Go build artifacts
+*.log
+*.tmp
+*.test
+*.prof
+
+# IDE and editor files
+.idea/
+*.swp
+*~
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# macOS files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+
+# Docker
+docker-compose.yml
+*.env
+Dockerfile
+
+# Kubernetes
+*.yaml
+
+# Logs
+logs
+*.log
+log/
+
+# Environment variables
+.env
+
+# MySQL data
+mysql-data/
+
+# Ignore database files
+*.sql
+*.db
+
+# Ignore .env file
+.env
+
+# Coverage and test output
+*.coverprofile
+*.cov
+*.coverage
+
+# Go workspace
+*.test
+*.tmp
